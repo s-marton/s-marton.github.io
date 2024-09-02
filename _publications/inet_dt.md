@@ -6,8 +6,8 @@ permalink: /publication/inet_dt
 excerpt: 'We extend Interpretation Nets (I-Nets), which interpret models without training data, to decision trees, enhancing model interpretability when data is inaccessible.'
 date: 2024-01-10
 venue: 'Machine Learning'
-slidesurl: 'http://smarton.github.io/files/poster_inet_dt.pdf'
-paperurl: 'http://smarton.github.io/files/paper_inet_dt.pdf'
+slidesurl: 'http://s-marton.github.io/files/poster_inet_dt.pdf'
+paperurl: 'http://s-marton.github.io/files/paper_inet_dt.pdf'
 citation: 'Marton, Sascha. (2024). &quot;Explaining neural networks without access to training data.&quot; <i>Machine Learning</i>. 113(6).'
 ---
 
