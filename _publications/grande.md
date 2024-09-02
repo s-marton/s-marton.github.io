@@ -6,8 +6,8 @@ permalink: /publication/grande
 excerpt: 'A novel ensemble method for hard, axis-aligned decision trees learned end-to-end with gradient descent.'
 date: 2024-05-07
 venue: 'International Conference on Learning Representations'
-slidesurl: 'http://smarton.github.io/files/poster_grande.pdf'
-paperurl: 'http://smarton.github.io/files/paper_grande.pdf'
+slidesurl: 'http://s-marton.github.io/files/poster_grande.pdf'
+paperurl: 'http://s-marton.github.io/files/paper_grande.pdf'
 citation: 'Marton, Sascha. (2024). &quot;GRANDE: Gradient-Based Decision Tree Ensembles for Tabular Data.&quot; <i>The Twelfth International Conference on Learning Representations</i>. 1(1).'
 ---
 
