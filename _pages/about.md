@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Sascha Marton - Machine Learning Researcher"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
