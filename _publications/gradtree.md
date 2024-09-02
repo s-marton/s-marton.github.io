@@ -6,8 +6,8 @@ permalink: /publication/gradtree
 excerpt: 'A novel approach for learning hard, axis-aligned decision trees with gradient descent.'
 date: 2024-03-24
 venue: 'AAAI Conference on Artificial Intelligence'
-slidesurl: 'http://smarton.github.io/files/poster_gradtree.pdf'
-paperurl: 'http://smarton.github.io/files/paper_gradtree.pdf'
+slidesurl: 'http://s-marton.github.io/files/poster_gradtree.pdf'
+paperurl: 'http://s-marton.github.io/files/paper_gradtree.pdf'
 citation: 'Marton, Sascha. (2024). &quot;GRANDE: Gradient-Based Decision Tree Ensembles for Tabular Data.&quot; <i>Proceedings of the AAAI Conference on Artificial Intelligence</i>. 38(13).'
 ---
 
