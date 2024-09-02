@@ -6,8 +6,8 @@ permalink: /publication/sympol
 excerpt: 'SYMPOL integrates a symbolic tree-based architecture with PPO for interpretable, on-policy reinforcement learning, outperforming other tree-based methods.'
 date: 2024-08-16
 venue: 'arXiv'
-slidesurl: 'http://smarton.github.io/files/poster_sympol.pdf'
-paperurl: 'http://smarton.github.io/files/paper_sympol.pdf'
+slidesurl: 'http://s-marton.github.io/files/poster_sympol.pdf'
+paperurl: 'http://s-marton.github.io/files/paper_sympol.pdf'
 citation: 'Marton, Sascha. (2024). &quot;SYMPOL: Symbolic Tree-Based On-Policy Reinforcement Learning.&quot; <i>arXiv</i>. 1(1).'
 ---
 
