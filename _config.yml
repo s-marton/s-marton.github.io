@@ -12,9 +12,9 @@ title                    : "Sascha Marton / Machine Learning Research" # / Machi
 title_separator          : "-"
 name                     : &name "Sascha Marton"
 description              : &description "personal description"
-url                      : https://smarton.github.io # the base hostname & protocol for your site 
+url                      : https://s-marton.github.io # the base hostname & protocol for your site 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "s-marton/smarton.github.io"
+repository               : "s-marton/s-marton.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
