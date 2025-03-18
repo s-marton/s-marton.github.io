@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/sympol
 excerpt: 'We propose a novel method for symbolic RL that enables end-to-end gradient-based learning of interpretable, axis-aligned decision trees, combining policy gradient optimization with symbolic decision-making.'
 date: 2025-04-28
-venue: 'International Conference on Learning Representations'
+venue: 'International Conference on Learning Representations **(Spotlight)**'
 slidesurl: 'http://s-marton.github.io/files/poster_sympol.pdf'
 paperurl: 'http://s-marton.github.io/files/paper_sympol.pdf'
 citation: 'Marton, Sascha. (2025). &quot;Mitigating Information Loss in Tree-Based Reinforcement Learning via Direct Optimization.&quot; <i>arXiv</i>. 1(1).'
