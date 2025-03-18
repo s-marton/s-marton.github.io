@@ -23,6 +23,27 @@ My primary research interests include:
 News
 ======
 
+### 🌳🤖 Mitigating Information Loss in Tree-Based Reinforcement Learning via Direct Optimization @ ICLR 25 (Spotlight)
+* Our paper was accepted for a Spotlight (Top 5%) at ICLR 25
+* We propose a novel method for tree-based RL that enables end-to-end gradient-based learning of interpretable, axis-aligned decision trees, combining policy gradient optimization with symbolic decision-making.
+* 🔍 What's new?
+  * No more information loss – We directly optimize tree-based policies!
+  * Interpretable policies – Forget black-box models; our approach keeps policies transparent & explainable!
+  * No Soft Decision Trees – While soft decision trees use probabilistic splits over multiple variables, SYMPOL makes clear, deterministic decisions for better interpretability!
+  * Strong performance – Our method outperforms alternative methods for learning DT policies across benchmarks!
+* Explore more:
+  * Read our [paper](https://openreview.net/forum?id=qpXctF2aLZ)
+  * Try our [code](https://github.com/s-marton/SYMPOL)
+
+### 🌳🧠 Decision Trees That Remember: Gradient-Based Learning of Recurrent Decision Trees with Memory @ ICLR 25 NFAM Workshop
+* Our paper was accepted at the ICLR 25 Workshop on New Frontiers in Associative Memories
+* We propose ReMeDe trees, a recurrent decision tree architecture with internal memory, enabling efficient learning for sequential data through hard, axis-aligned decision trees trained via gradient descent.
+* 🔍 Why does this matter?
+  * Captures long-term dependencies like RNNs but retains the axis-alignment and transparency of decision trees
+  * Handles sequential data without relying on fixed-size memory windows or hand-crafted features
+  * Trained efficiently via Backpropagation-Through-Time
+* Read our [paper](https://openreview.net/forum?id=u2Hh24rxW1)
+
 First Author Publications
 ======
 [Mitigating Information Loss in Tree-Based Reinforcement Learning via Direct Optimization](https://openreview.net/forum?id=qpXctF2aLZ)<br />
