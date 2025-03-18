@@ -9,8 +9,7 @@ redirect_from:
 
 I'm a  Machine Learning Researcher at the University of Mannheim in Germany, where I have been pursuing my PhD since 2019. My research is centered on advancing machine learning techniques for tabular data, with a recent focus on gradient-based decision tree learning and tree-based ensemble methods.
 
-Research Interests
-======
+## Research Interests
 My current work involves developing a new approach for learning hard, axis-aligned decision trees using gradient descent. This method employs backpropagation with a straight-through operator on a dense decision tree representation, allowing for the joint optimization of all tree parameters. As a result, we achieve state-of-the-art performance across various domains, including interpretable decision trees and high-performance decision tree ensembles for tabular data, as well as interpretable reinforcement learning without information loss.
 
 My primary research interests include:
@@ -20,9 +19,7 @@ My primary research interests include:
 * Time-Series Forecasting
 * Explainable Artificial Intelligence
 
-News
-======
-
+## News
 ### 🌳🤖 Mitigating Information Loss in Tree-Based Reinforcement Learning via Direct Optimization @ ICLR 25 (Spotlight)
 * Our paper was accepted for a Spotlight (Top 5%) at ICLR 25
 * We propose a novel method for tree-based RL that enables end-to-end gradient-based learning of interpretable, axis-aligned decision trees, combining policy gradient optimization with symbolic decision-making.
@@ -44,8 +41,8 @@ News
   * Trained efficiently via Backpropagation-Through-Time
 * Read our [paper](https://openreview.net/forum?id=u2Hh24rxW1)
 
-First Author Publications
-======
+## Publication List
+### First Author Publications
 [Mitigating Information Loss in Tree-Based Reinforcement Learning via Direct Optimization](https://openreview.net/forum?id=qpXctF2aLZ)<br />
 <u>Sascha Marton</u>, Tim Grams, Florian Vogt, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt<br />
 ICLR 2025 <b>(Spotlight)</b>
@@ -70,9 +67,7 @@ Machine Learning Journal (2024)
 <u>Sascha Marton</u>, Stefan Lüdtke, Christian Bartelt<br />
 Applied Sciences (2022)
 
-Further Publications
-======
-
+### Further Publications
 [Beyond Pixels: Enhancing LIME with Hierarchical Features and Segmentation Foundation Models](https://openreview.net/forum?id=JHs5p6nPbG)<br />
 Patrick Knab, <u>Sascha Marton</u>, Christian Bartelt<br />
 ICLR 2025 Workshop on Foundation Models in the Wild
