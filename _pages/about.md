@@ -25,50 +25,49 @@ News
 
 First Author Publications
 ======
-[Mitigating Information Loss in Tree-Based Reinforcement Learning via Direct Optimization](https://openreview.net/forum?id=qpXctF2aLZ)
-<u>Sascha Marton</u>, Tim Grams, Florian Vogt, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt
+[Mitigating Information Loss in Tree-Based Reinforcement Learning via Direct Optimization](https://openreview.net/forum?id=qpXctF2aLZ)<br />
+<u>Sascha Marton</u>, Tim Grams, Florian Vogt, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt<br />
 ICLR 2025 <b>(Spotlight)</b>
 
-[Decision Trees That Remember: Gradient-Based Learning of Recurrent Decision Trees with Memory](https://openreview.net/forum?id=u2Hh24rxW1)
-<u>Sascha Marton</u>, Moritz Schneider, Jannik Brinkmann, Stefan Ludtke, Christian Bartelt, Heiner Stuckenschmidt
+[Decision Trees That Remember: Gradient-Based Learning of Recurrent Decision Trees with Memory](https://openreview.net/forum?id=u2Hh24rxW1)<br />
+<u>Sascha Marton</u>, Moritz Schneider, Jannik Brinkmann, Stefan Ludtke, Christian Bartelt, Heiner Stuckenschmidt<br />
 ICLR 2025 Workshop on New Frontiers in Associative Memories
 
-[GRANDE: Gradient-Based Decision Tree Ensembles for Tabular Data](https://openreview.net/forum?id=XEFWBxi075)
-<u>Sascha Marton</u>, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt
+[GRANDE: Gradient-Based Decision Tree Ensembles for Tabular Data](https://openreview.net/forum?id=XEFWBxi075)<br />
+<u>Sascha Marton</u>, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt<br />
 ICLR 2024
 
-[GradTree: Learning Axis-Aligned Decision Trees with Gradient Descent](https://ojs.aaai.org/index.php/AAAI/article/view/29345)
-<u>Sascha Marton</u>, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt
+[GradTree: Learning Axis-Aligned Decision Trees with Gradient Descent](https://ojs.aaai.org/index.php/AAAI/article/view/29345)<br />
+<u>Sascha Marton</u>, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt<br />
 AAAI 2024 <b>(Oral)</b>
 
-[Explaining neural networks without access to training data](https://link.springer.com/article/10.1007/s10994-023-06428-4)
-<u>Sascha Marton</u>, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt
+[Explaining neural networks without access to training data](https://link.springer.com/article/10.1007/s10994-023-06428-4)<br />
+<u>Sascha Marton</u>, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt<br />
 Machine Learning Journal (2024)
 
-[Explanations for Neural Networks by Neural Network](https://www.mdpi.com/2076-3417/12/3/980)
-<u>Sascha Marton</u>, Stefan Lüdtke, Christian Bartelt
+[Explanations for Neural Networks by Neural Network](https://www.mdpi.com/2076-3417/12/3/980)<br />
+<u>Sascha Marton</u>, Stefan Lüdtke, Christian Bartelt<br />
 Applied Sciences (2022)
 
 Further Publications
 ======
 
-[Beyond Pixels: Enhancing LIME with Hierarchical Features and Segmentation Foundation Models](https://openreview.net/forum?id=JHs5p6nPbG)
-Patrick Knab, <u>Sascha Marton</u>, Christian Bartelt
+[Beyond Pixels: Enhancing LIME with Hierarchical Features and Segmentation Foundation Models](https://openreview.net/forum?id=JHs5p6nPbG)<br />
+Patrick Knab, <u>Sascha Marton</u>, Christian Bartelt<br />
 ICLR 2025 Workshop on Foundation Models in the Wild
 
-[A Data-Centric Perspective on Evaluating Machine Learning Models for Tabular Data](https://openreview.net/forum?id=kWTvdSSH5W)
-Andrej Tschalzev, <u>Sascha Marton</u>, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt
+[A Data-Centric Perspective on Evaluating Machine Learning Models for Tabular Data](https://openreview.net/forum?id=kWTvdSSH5W)<br />
+Andrej Tschalzev, <u>Sascha Marton</u>, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt<br />
 NeurIPS 2024
 
-[DCBM: Data-Efficient Visual Concept Bottleneck Models](https://arxiv.org/abs/2412.11576)
-Katharina Prasse, Patrick Knab, <u>Sascha Marton</u>, Christian Bartelt, Margret Keuper
+[DCBM: Data-Efficient Visual Concept Bottleneck Models](https://arxiv.org/abs/2412.11576)<br />
+Katharina Prasse, Patrick Knab, <u>Sascha Marton</u>, Christian Bartelt, Margret Keuper<br />
 arXiv preprint
 
-[Interpreting Outliers in Time Series Data through Decoding Autoencoder](https://ceur-ws.org/Vol-3761/paper3.pdf)
-Patrick Knab, <u>Sascha Marton</u>, Christian Bartelt, Robert Fuder
+[Interpreting Outliers in Time Series Data through Decoding Autoencoder](https://ceur-ws.org/Vol-3761/paper3.pdf)<br />
+Patrick Knab, <u>Sascha Marton</u>, Christian Bartelt, Robert Fuder<br />
 ECML-PKDD 2024 Workshop on Explainable AI for Time Series and Data Streams 
 
-[Bias mitigation for large language models using adversarial learning](https://ceur-ws.org/Vol-3523/paper11.pdf)
-Jasmina S Ernst, <u>Sascha Marton</u>, Jannik Brinkmann, Eduardo Vellasques, Damien Foucard, 
-Martin Kraemer, Marian Lambert
+[Bias mitigation for large language models using adversarial learning](https://ceur-ws.org/Vol-3523/paper11.pdf)<br />
+Jasmina S Ernst, <u>Sascha Marton</u>, Jannik Brinkmann, Eduardo Vellasques, Damien Foucard, Martin Kraemer, Marian Lambert<br />
 ECAI 2023 Workshop on Fairness and Bias in AI
