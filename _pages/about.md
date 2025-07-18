@@ -68,17 +68,25 @@ Machine Learning Journal (2024)
 Applied Sciences (2022)
 
 ### Further Publications
-[Beyond Pixels: Enhancing LIME with Hierarchical Features and Segmentation Foundation Models](https://openreview.net/forum?id=JHs5p6nPbG)<br />
+[DCBM: Data-Efficient Visual Concept Bottleneck Models](https://openreview.net/forum?id=BdO4R6XxUH)<br />
+Katharina Prasse, Patrick Knab, <u>Sascha Marton</u>, Christian Bartelt, Margret Keuper<br />
+ICML 2025
+
+[Beyond Pixels: Enhancing LIME with Hierarchical Features and Segmentation Foundation Models](https://arxiv.org/abs/2403.07733)<br />
 Patrick Knab, <u>Sascha Marton</u>, Christian Bartelt<br />
-ICLR 2025 Workshop on Foundation Models in the Wild
+ECAI 2025
+
+[Disentangling Exploration of Large Language Models by Optimal Exploitation](https://arxiv.org/abs/2501.08925)<br />
+Tim Grams, Patrick Betz, <u>Sascha Marton</u>, Stefan Lüdtke and Christian Bartelt<br />
+ECAI 2025
+
+[Which LIME should I trust? Concepts, Challenges, and Solutions](https://patrick-knab.github.io/which-lime-to-trust/)<br />
+Patrick Knab, <u>Sascha Marton</u>, Udo Schlegel, Christian Bartelt<br />
+XAI 2025
 
 [A Data-Centric Perspective on Evaluating Machine Learning Models for Tabular Data](https://openreview.net/forum?id=kWTvdSSH5W)<br />
 Andrej Tschalzev, <u>Sascha Marton</u>, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt<br />
 NeurIPS 2024
-
-[DCBM: Data-Efficient Visual Concept Bottleneck Models](https://arxiv.org/abs/2412.11576)<br />
-Katharina Prasse, Patrick Knab, <u>Sascha Marton</u>, Christian Bartelt, Margret Keuper<br />
-arXiv preprint
 
 [Interpreting Outliers in Time Series Data through Decoding Autoencoder](https://ceur-ws.org/Vol-3761/paper3.pdf)<br />
 Patrick Knab, <u>Sascha Marton</u>, Christian Bartelt, Robert Fuder<br />
