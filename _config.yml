@@ -26,12 +26,12 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Machine Learning Researcher and PhD Candidate"
   location         : "Heidelberg"
-  employer         : "University of Mannheim"
+  employer         : "Technical University of Clausthal"
   uri              : # URL
-  email            : "sascha.marton@uni-mannheim.de" 
+  email            : "sascha.marton@tu-clausthal.de" 
 
   github           : "s-marton"
-  googlescholar    : "https://scholar.google.com/citations?user=5PQJ3sEAAAAJ&hl"
+  googlescholar    : "https://scholar.google.com/citations?user=5PQJ3sEAAAAJ"
   
   linkedin         : "sascha-marton-a19630185"
   twitter          : "__smarton"
@@ -255,14 +255,14 @@ defaults:
   #    share: true
   #    comments: true
   # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+  #- scope:
+  #    path: ""
+  #    type: publications
+  #  values:
+  #    layout: single
+  #    author_profile: true
+  #    share: true
+  #    comments: true
   # _portfolio
   #- scope:
   #    path: ""
@@ -273,13 +273,13 @@ defaults:
   #    share: true
   #    comment: true
   # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+  #- scope:
+  #    path: ""
+  #    type: talks
+  #  values:
+  #    layout: talk
+  #    author_profile: true
+  #    share: true
 
 
 # Sass/SCSS
