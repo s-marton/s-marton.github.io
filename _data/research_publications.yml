@@ -1,0 +1,170 @@
+[
+  {
+    "title": "Explaining Tabular Foundation Model Differences Through Meta-Features",
+    "url": "https://openreview.net/forum?id=FJSkVoD4k3",
+    "authors": "Markus Herre, Andrej Tschalzev, <strong>Sascha Marton</strong>, Christian Bartelt",
+    "venue": "ICML 2026 · 2nd Workshop on Foundation Models for Structured Data",
+    "year": 2026,
+    "id": "tfm-metafeatures",
+    "source": "https://m-herre.github.io/publications.html"
+  },
+  {
+    "title": "Concepts in Motion: Temporal Concept Bottleneck Model for Interpretable Video Classification",
+    "url": "https://arxiv.org/abs/2509.20899",
+    "authors": "Patrick Knab, <strong>Sascha Marton</strong>, Philipp J. Schubert, Drago Guggiana, Christian Bartelt",
+    "venue": "NeurIPS 2026",
+    "year": 2026,
+    "id": "concepts-in-motion",
+    "status_source": "https://www.linkedin.com/posts/patrick-knab-4396261b4_very-happy-to-share-some-good-news-our-activity-7513482053095432192-mNWV"
+  },
+  {
+    "id": "trace-cbm",
+    "title": "Intervenable Concept Dynamics for Video Activity Forecasting",
+    "authors": "Patrick Knab, David Steinmann, Giovanni De Felice, Felix Divo, Udo Schlegel, Wolfgang Stammer, <strong>Sascha Marton</strong>, Christian Bartelt",
+    "url": "https://www.researchgate.net/profile/Patrick-Knab-2/publication/415302662_Intervenable_Concept_Dynamics_for_Video_Activity_Forecasting/links/6ac5db47d632da6a7c29eb07/Intervenable-Concept-Dynamics-for-Video-Activity-Forecasting.pdf",
+    "venue": "NeurIPS 2026 · FTMS Workshop",
+    "year": 2026,
+    "source": "https://scholar.google.de/citations?view_op=view_citation&hl=de&user=5PQJ3sEAAAAJ&citation_for_view=5PQJ3sEAAAAJ:QIV2ME_5wuYC",
+    "status_source": "https://www.linkedin.com/posts/patrick-knab-4396261b4_very-happy-to-share-some-good-news-our-activity-7513482053095432192-mNWV"
+  },
+  {
+    "title": "Mitigating Information Loss in Tree-Based Reinforcement Learning via Direct Optimization",
+    "url": "https://openreview.net/forum?id=qpXctF2aLZ",
+    "authors": "<strong>Sascha Marton</strong>, Tim Grams, Florian Vogt, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt",
+    "venue": "ICLR 2025 <b>(Spotlight)</b>",
+    "year": 2025,
+    "code": "https://github.com/s-marton/SYMPOL",
+    "id": "sympol",
+    "short_title": "SYMPOL",
+    "summary": "Code for directly learning interpretable tree policies with PPO. The repository includes a decision-tree actor and neural-network critic, scripts for Gymnasium and vectorized gymnax environments, and experiment commands and hyperparameter configurations used in the paper.",
+    "paper_summary": "SYMPOL integrates a tree-based policy with policy-gradient optimization to learn interpretable, axis-aligned decision trees end-to-end within standard on-policy reinforcement learning algorithms. This makes it possible to learn compact symbolic policies directly. In the paper's benchmark tasks, it outperformed alternative tree-based reinforcement learning approaches in performance and interpretability.",
+    "paper_summary_sources": [
+      "https://arxiv.org/abs/2408.08761v5",
+      "https://openreview.net/forum?id=qpXctF2aLZ"
+    ],
+    "software_description_source": "https://github.com/s-marton/SYMPOL/blob/9d2bd4e7b62d160b5f4b740cb6da95b8dfe39b3e/README.md"
+  },
+  {
+    "title": "Decision Trees That Remember: Gradient-Based Learning of Recurrent Decision Trees with Memory",
+    "url": "https://openreview.net/forum?id=u2Hh24rxW1",
+    "authors": "<strong>Sascha Marton</strong>, Moritz Schneider",
+    "venue": "ICLR 2025 Workshop on New Frontiers in Associative Memories",
+    "year": 2025,
+    "id": "remede"
+  },
+  {
+    "title": "DCBM: Data-Efficient Visual Concept Bottleneck Models",
+    "url": "https://openreview.net/forum?id=BdO4R6XxUH",
+    "authors": "Katharina Prasse, Patrick Knab, <strong>Sascha Marton</strong>, Christian Bartelt, Margret Keuper",
+    "venue": "ICML 2025",
+    "year": 2025,
+    "id": "dcbm"
+  },
+  {
+    "title": "Beyond Pixels: Enhancing LIME with Hierarchical Features and Segmentation Foundation Models",
+    "url": "https://arxiv.org/abs/2403.07733",
+    "authors": "Patrick Knab, <strong>Sascha Marton</strong>, Christian Bartelt",
+    "venue": "ECAI 2025",
+    "year": 2025,
+    "id": "beyond-pixels"
+  },
+  {
+    "title": "Disentangling Exploration of Large Language Models by Optimal Exploitation",
+    "url": "https://arxiv.org/abs/2501.08925",
+    "authors": "Tim Grams, Patrick Betz, <strong>Sascha Marton</strong>, Stefan Lüdtke and Christian Bartelt",
+    "venue": "ECAI 2025",
+    "year": 2025,
+    "id": "llm-exploration"
+  },
+  {
+    "title": "Which LIME should I trust? Concepts, Challenges, and Solutions",
+    "url": "https://patrick-knab.github.io/which-lime-to-trust/",
+    "authors": "Patrick Knab, <strong>Sascha Marton</strong>, Udo Schlegel, Christian Bartelt",
+    "venue": "XAI 2025",
+    "year": 2025,
+    "id": "which-lime"
+  },
+  {
+    "id": "phd-thesis",
+    "title": "Learning Tree-Based Models with Gradient Descent",
+    "authors": "<strong>Sascha Marton</strong>",
+    "url": "https://madoc.bib.uni-mannheim.de/70481/",
+    "venue": "PhD dissertation · University of Mannheim · 2025",
+    "year": 2025
+  },
+  {
+    "title": "GRANDE: Gradient-Based Decision Tree Ensembles for Tabular Data",
+    "url": "https://openreview.net/forum?id=XEFWBxi075",
+    "authors": "<strong>Sascha Marton</strong>, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt",
+    "venue": "ICLR 2024",
+    "year": 2024,
+    "code": "https://github.com/s-marton/GRANDE",
+    "id": "grande",
+    "short_title": "GRANDE",
+    "summary": "GRANDE brings gradient-based optimization to decision tree ensembles for tabular data. It jointly learns hard, axis-aligned splits, leaf values, and instance-wise leaf weights, combining tree structure with neural optimization.",
+    "software_note": "The PyTorch package provides classification and regression estimators with a scikit-learn-style interface, built-in preprocessing, and CPU/GPU support. Example notebooks cover training and tuning; inspection tools expose individual trees, feature importances, instance-wise estimator weights, and readable rules.",
+    "primary_link": "code",
+    "paper_summary": "GRANDE learns ensembles of hard, axis-aligned decision trees end-to-end with gradient descent. A dense ensemble representation and a straight-through operator allow all model parameters to be optimized jointly. Instance-wise weighting lets the ensemble represent both simple and complex relationships. On the paper's benchmark of 19 classification datasets, it outperformed the evaluated gradient-boosting and deep learning methods on most datasets.",
+    "paper_summary_sources": [
+      "https://arxiv.org/abs/2309.17130v3",
+      "https://openreview.net/forum?id=XEFWBxi075"
+    ],
+    "software_description_source": "https://github.com/s-marton/GRANDE/blob/b9c51cef2cb5f844d6e7f0d6d11ebed49f9914cf/README.md"
+  },
+  {
+    "title": "GradTree: Learning Axis-Aligned Decision Trees with Gradient Descent",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29345",
+    "authors": "<strong>Sascha Marton</strong>, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt",
+    "venue": "AAAI 2024 <b>(Oral)</b>",
+    "year": 2024,
+    "code": "https://github.com/s-marton/GradTree",
+    "id": "gradtree",
+    "short_title": "GradTree",
+    "summary": "A Python implementation for training hard, axis-aligned decision trees with gradient descent. The package includes preprocessing when categorical feature indices are supplied, a minimal example notebook, and code for reproducing the paper’s experiments.",
+    "paper_summary": "GradTree trains hard, axis-aligned decision trees with gradient descent rather than choosing splits through a greedy growth procedure. It uses a dense tree representation, backpropagation, and a straight-through operator to optimize all tree parameters jointly. In the paper's experiments, it outperformed existing methods on binary classification benchmarks and achieved competitive results on multiclass tasks.",
+    "paper_summary_sources": [
+      "https://ojs.aaai.org/index.php/AAAI/article/view/29345"
+    ],
+    "software_description_source": "https://github.com/s-marton/GradTree/blob/c9b3cd3847c4e1b73186bfc1f0ced46bfab259f5/README.md"
+  },
+  {
+    "title": "Explaining neural networks without access to training data",
+    "url": "https://link.springer.com/article/10.1007/s10994-023-06428-4",
+    "authors": "<strong>Sascha Marton</strong>, Stefan Lüdtke, Christian Bartelt, Andrej Tschalzev, Heiner Stuckenschmidt",
+    "venue": "Machine Learning Journal (2024)",
+    "year": 2024,
+    "id": "explaining-networks"
+  },
+  {
+    "title": "A Data-Centric Perspective on Evaluating Machine Learning Models for Tabular Data",
+    "url": "https://openreview.net/forum?id=kWTvdSSH5W",
+    "authors": "Andrej Tschalzev, <strong>Sascha Marton</strong>, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt",
+    "venue": "NeurIPS 2024 · Datasets and Benchmarks Track",
+    "year": 2024,
+    "id": "data-centric-evaluation"
+  },
+  {
+    "title": "Interpreting Outliers in Time Series Data through Decoding Autoencoder",
+    "url": "https://ceur-ws.org/Vol-3761/paper3.pdf",
+    "authors": "Patrick Knab, <strong>Sascha Marton</strong>, Christian Bartelt, Robert Fuder",
+    "venue": "ECML-PKDD 2024 Workshop on Explainable AI for Time Series and Data Streams",
+    "year": 2024,
+    "id": "time-series-outliers"
+  },
+  {
+    "title": "Bias mitigation for large language models using adversarial learning",
+    "url": "https://ceur-ws.org/Vol-3523/paper11.pdf",
+    "authors": "Jasmina S Ernst, <strong>Sascha Marton</strong>, Jannik Brinkmann, Eduardo Vellasques, Damien Foucard, Martin Kraemer, Marian Lambert",
+    "venue": "ECAI 2023 Workshop on Fairness and Bias in AI",
+    "year": 2023,
+    "id": "llm-bias"
+  },
+  {
+    "title": "Explanations for Neural Networks by Neural Networks",
+    "url": "https://www.mdpi.com/2076-3417/12/3/980",
+    "authors": "<strong>Sascha Marton</strong>, Stefan Lüdtke, Christian Bartelt",
+    "venue": "Applied Sciences (2022)",
+    "year": 2022,
+    "id": "interpretation-nets"
+  }
+]

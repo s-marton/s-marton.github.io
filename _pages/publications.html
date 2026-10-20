@@ -1,36 +1,31 @@
 ---
-layout: archive
+layout: research
 title: "Publications"
 permalink: /publications/
-author_profile: true
+description: "Research papers and preprints by Sascha Marton."
 ---
+<p class="research-intro">Papers and preprints on tabular machine learning, tree-based models, and interpretable AI. See also <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
+<section class="publication-highlights" aria-labelledby="selected-publications">
+<p class="research-eyebrow">Research highlights</p>
+<h2 id="selected-publications">Selected publications</h2>
+{% include research-highlights.html compact=true %}
+</section>
+<section aria-labelledby="all-publications">
+<h2 id="all-publications">All publications &amp; research outputs</h2>
+<p class="publication-note">Journal and conference papers, workshops, preprints, and my dissertation. </p>
+{% assign years = site.data.research_publications | group_by: "year" %}
+{% for year in years %}
+<section class="publication-year" aria-labelledby="year-{{ year.name }}">
+<h2 id="year-{{ year.name }}">{{ year.name }}</h2>
+{% for paper in year.items %}
+<article class="publication-entry{% if site.data.research.featured_papers contains paper.id %} publication-entry-selected{% endif %}" id="paper-{{ paper.id }}">
+{% if site.data.research.featured_papers contains paper.id %}<span class="publication-selected-label">Selected publication</span>{% endif %}
+<h3><a href="{{ paper.url }}">{{ paper.title }}</a></h3>
+<p class="publication-authors">{{ paper.authors }}</p>
+<p class="publication-venue">{{ paper.venue }}{% if paper.code %} · <a href="{{ paper.code }}">Code ↗</a>{% endif %}{% if paper.preprint %} · <a href="{{ paper.preprint }}">Preprint ↗</a>{% endif %}</p>
+</article>
+{% endfor %}
+</section>
+{% endfor %}
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">Listed below are my most relevant publications. You can find a complete list of my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+</section>

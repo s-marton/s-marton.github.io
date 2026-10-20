@@ -1,97 +1,38 @@
 ---
+layout: research
 permalink: /
-title: "Hey, I'm Sascha."
-author_profile: true
-redirect_from: 
+title: "Machine learning for tabular data"
+description: "Sascha Marton researches machine learning for tabular data, with a focus on tabular foundation models, deep learning for tabular data, and decision tree ensembles."
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I'm an Assistant Professor (Akademischer Rat) at the Technical University of Clausthal in Germany. I completed my PhD in Machine Learning at the University of Mannheim in May 2025. My research focuses on advancing machine learning techniques for tabular data, with a recent emphasis on gradient-based decision tree learning and tree-based ensemble methods.
+<header class="research-hero research-about" aria-labelledby="about-heading">
+<p class="research-eyebrow">Machine learning research</p>
+<h1 id="about-heading">Hey, I'm Sascha.</h1>
+<p class="research-lead">I work on machine learning for tabular data. I'm particularly interested in advancing <strong>tabular foundation models</strong> and developing methods that people can use and build on.</p>
+<div class="research-about-story">
+<p>I became interested in tabular data during my PhD at the University of Mannheim, which I completed in May 2025. Much of my work focused on bringing decision trees and deep learning closer together. After finishing my PhD, I joined TU Clausthal, where my focus shifted towards tabular foundation models, building on that interest in deep learning for tabular data.</p>
+<p>I've always wanted to do research with impact. Research that people can use and build on. I enjoy working on ambitious ideas with people who are just as excited about them as I am. With tabular foundation models, there's still so much to figure out, and the chance to help shape what comes next is incredibly exciting.</p>
+</div>
+<div class="research-topics" aria-label="Research interests"><span>Tabular foundation models</span><span>Deep learning for tabular data</span><span>Decision tree ensembles</span></div>
+<div class="research-actions"><a class="research-button" href="#research">Research &amp; software <span aria-hidden="true">↓</span></a><a href="{{ '/publications/' | relative_url }}">Publications <span aria-hidden="true">↗</span></a></div>
+</header>
 
-## Research Interests
-My current work involves developing a new approach for learning hard, axis-aligned decision trees using gradient descent. This method employs backpropagation with a straight-through operator on a dense decision tree representation, allowing for the joint optimization of all tree parameters. As a result, we achieve state-of-the-art performance across various domains, including interpretable decision trees and high-performance decision tree ensembles for tabular data, as well as interpretable reinforcement learning without information loss.
+<section class="research-section" id="research" aria-labelledby="work-heading">
+<div class="research-section-heading"><div><p class="research-eyebrow">Selected research &amp; software</p><h2 id="work-heading">Research you can build on.</h2></div><a href="{{ '/publications/' | relative_url }}">All publications ↗</a></div>
+{% include research-highlights.html %}
+</section>
 
-My primary research interests include:
-* Ensemble Methods
-* Tree-Based Methods
-* Deep Learning for Tabular Data
-* Time-Series Forecasting
-* Explainable Artificial Intelligence
+<section class="research-section research-background" aria-labelledby="background-heading">
+<p class="research-eyebrow">Beyond research</p>
+<h2 id="background-heading">Teaching &amp; mentoring.</h2>
+<p>Besides research, I really enjoyed giving lectures, supervising students, and co-supervising PhD projects during my time in academia. Something I hadn't expected to enjoy quite that much. The research was fun, but the people made it special.</p>
+<a href="{{ '/cv/' | relative_url }}">View my CV ↗</a>
+</section>
 
-## News
-### 🌳🤖 Mitigating Information Loss in Tree-Based Reinforcement Learning via Direct Optimization @ ICLR 25 (Spotlight)
-* Our paper was accepted for a Spotlight (Top 5%) at ICLR 25
-* We propose a novel method for tree-based RL that enables end-to-end gradient-based learning of interpretable, axis-aligned decision trees, combining policy gradient optimization with symbolic decision-making.
-* 🔍 What's new?
-  * No more information loss – We directly optimize tree-based policies!
-  * Interpretable policies – Forget black-box models; our approach keeps policies transparent & explainable!
-  * No Soft Decision Trees – While soft decision trees use probabilistic splits over multiple variables, SYMPOL makes clear, deterministic decisions for better interpretability!
-  * Strong performance – Our method outperforms alternative methods for learning DT policies across benchmarks!
-* Explore more:
-  * Read our [paper](https://openreview.net/forum?id=qpXctF2aLZ)
-  * Try our [code](https://github.com/s-marton/SYMPOL)
-
-### 🌳🧠 Decision Trees That Remember: Gradient-Based Learning of Recurrent Decision Trees with Memory @ ICLR 25 NFAM Workshop
-* Our paper was accepted at the ICLR 25 Workshop on New Frontiers in Associative Memories
-* We propose ReMeDe trees, a recurrent decision tree architecture with internal memory, enabling efficient learning for sequential data through hard, axis-aligned decision trees trained via gradient descent.
-* 🔍 Why does this matter?
-  * Captures long-term dependencies like RNNs but retains the axis-alignment and transparency of decision trees
-  * Handles sequential data without relying on fixed-size memory windows or hand-crafted features
-  * Trained efficiently via Backpropagation-Through-Time
-* Read our [paper](https://openreview.net/forum?id=u2Hh24rxW1)
-
-## Publication List
-### First Author Publications
-[Mitigating Information Loss in Tree-Based Reinforcement Learning via Direct Optimization](https://openreview.net/forum?id=qpXctF2aLZ)<br />
-<u>Sascha Marton</u>, Tim Grams, Florian Vogt, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt<br />
-ICLR 2025 <b>(Spotlight)</b>
-
-[Decision Trees That Remember: Gradient-Based Learning of Recurrent Decision Trees with Memory](https://openreview.net/forum?id=u2Hh24rxW1)<br />
-<u>Sascha Marton</u>, Moritz Schneider, Jannik Brinkmann, Stefan Ludtke, Christian Bartelt, Heiner Stuckenschmidt<br />
-ICLR 2025 Workshop on New Frontiers in Associative Memories
-
-[GRANDE: Gradient-Based Decision Tree Ensembles for Tabular Data](https://openreview.net/forum?id=XEFWBxi075)<br />
-<u>Sascha Marton</u>, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt<br />
-ICLR 2024
-
-[GradTree: Learning Axis-Aligned Decision Trees with Gradient Descent](https://ojs.aaai.org/index.php/AAAI/article/view/29345)<br />
-<u>Sascha Marton</u>, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt<br />
-AAAI 2024 <b>(Oral)</b>
-
-[Explaining neural networks without access to training data](https://link.springer.com/article/10.1007/s10994-023-06428-4)<br />
-<u>Sascha Marton</u>, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt<br />
-Machine Learning Journal (2024)
-
-[Explanations for Neural Networks by Neural Network](https://www.mdpi.com/2076-3417/12/3/980)<br />
-<u>Sascha Marton</u>, Stefan Lüdtke, Christian Bartelt<br />
-Applied Sciences (2022)
-
-### Further Publications
-[DCBM: Data-Efficient Visual Concept Bottleneck Models](https://openreview.net/forum?id=BdO4R6XxUH)<br />
-Katharina Prasse, Patrick Knab, <u>Sascha Marton</u>, Christian Bartelt, Margret Keuper<br />
-ICML 2025
-
-[Beyond Pixels: Enhancing LIME with Hierarchical Features and Segmentation Foundation Models](https://arxiv.org/abs/2403.07733)<br />
-Patrick Knab, <u>Sascha Marton</u>, Christian Bartelt<br />
-ECAI 2025
-
-[Disentangling Exploration of Large Language Models by Optimal Exploitation](https://arxiv.org/abs/2501.08925)<br />
-Tim Grams, Patrick Betz, <u>Sascha Marton</u>, Stefan Lüdtke and Christian Bartelt<br />
-ECAI 2025
-
-[Which LIME should I trust? Concepts, Challenges, and Solutions](https://patrick-knab.github.io/which-lime-to-trust/)<br />
-Patrick Knab, <u>Sascha Marton</u>, Udo Schlegel, Christian Bartelt<br />
-XAI 2025
-
-[A Data-Centric Perspective on Evaluating Machine Learning Models for Tabular Data](https://openreview.net/forum?id=kWTvdSSH5W)<br />
-Andrej Tschalzev, <u>Sascha Marton</u>, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt<br />
-NeurIPS 2024
-
-[Interpreting Outliers in Time Series Data through Decoding Autoencoder](https://ceur-ws.org/Vol-3761/paper3.pdf)<br />
-Patrick Knab, <u>Sascha Marton</u>, Christian Bartelt, Robert Fuder<br />
-ECML-PKDD 2024 Workshop on Explainable AI for Time Series and Data Streams 
-
-[Bias mitigation for large language models using adversarial learning](https://ceur-ws.org/Vol-3523/paper11.pdf)<br />
-Jasmina S Ernst, <u>Sascha Marton</u>, Jannik Brinkmann, Eduardo Vellasques, Damien Foucard, Martin Kraemer, Marian Lambert<br />
-ECAI 2023 Workshop on Fairness and Bias in AI
+<section class="research-section research-contact" aria-labelledby="contact-heading">
+<h2 id="contact-heading">Get in touch.</h2>
+<p>For questions about my research or open-source projects, reach me at <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.</p>
+</section>

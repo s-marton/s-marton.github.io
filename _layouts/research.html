@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<main class="research-shell" id="main-content">
+  <aside class="research-profile" aria-label="About Sascha Marton">
+    <a href="{{ '/' | relative_url }}" aria-label="Sascha Marton, home"><img class="research-portrait" src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" alt="Sascha Marton" width="160" height="160"></a>
+    <p class="research-name">Sascha Marton</p>
+    <p class="research-role">Machine Learning Researcher</p>
+    <p class="research-location">Heidelberg, Germany</p>
+    <nav class="research-links" aria-label="Profile links">
+      <a href="mailto:{{ site.author.email }}">Email <span aria-hidden="true">↗</span></a>
+      <a href="{{ site.author.googlescholar }}">Google Scholar <span aria-hidden="true">↗</span></a>
+      <a href="https://github.com/{{ site.author.github }}">GitHub <span aria-hidden="true">↗</span></a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn <span aria-hidden="true">↗</span></a>
+      <a href="{{ site.author.orcid }}">ORCID <span aria-hidden="true">↗</span></a>
+    </nav>
+  </aside>
+  <article class="research-content">
+    {% if page.url != '/' %}<header class="research-page-header"><p class="research-eyebrow">Sascha Marton / Research</p><h1>{{ page.title }}</h1></header>{% endif %}
+    {{ content }}
+  </article>
+</main>

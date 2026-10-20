@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Sascha Marton / Machine Learning Research" # / Machine Learning Researcher"
+title                    : "Sascha Marton" # / Machine Learning Researcher"
 title_separator          : "-"
 name                     : &name "Sascha Marton"
-description              : &description "personal description"
+description              : &description "Sascha Marton — machine learning research for tabular data, with a focus on tabular foundation models, deep learning for tabular data, and decision tree ensembles."
 url                      : https://s-marton.github.io # the base hostname & protocol for your site 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "s-marton/s-marton.github.io"
@@ -21,14 +21,14 @@ repository               : "s-marton/s-marton.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Marton_UMA_square.jpg"
+  avatar           : "portrait_sascha_square.png"
   name             : "Sascha Marton"
   pronouns         : # example: "she/her"  
-  bio              : "Assistant Professor (Akademischer Rat)"
+  bio              : "Machine Learning Researcher · Tabular Foundation Models"
   location         : "Heidelberg"
-  employer         : "Technical University of Clausthal"
+  employer         : ""
   uri              : # URL
-  email            : "sascha.marton@tu-clausthal.de" 
+  email            : "sascha.marton@gmail.com"
 
   github           : "s-marton"
   googlescholar    : "https://scholar.google.com/citations?user=5PQJ3sEAAAAJ"

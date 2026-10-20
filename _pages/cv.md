@@ -1,106 +1,74 @@
 ---
-layout: archive
+layout: research
 title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
+description: "Sascha Marton's academic background, research, teaching, and professional service."
 ---
 
-{% include base_path %}
+<p class="research-intro">My background in research, teaching, and academic leadership, with a focus on machine learning for tabular data.</p>
 
-Education
-======
-* Ph.D in Machine Learning, University of Mannheim (summa cum laude, May 2025)
-  * Dissertation: „Learning Tree-Based Models with Gradient Descent”
-* M.S. in Business Informatics (Data Science Track), University of Mannheim, 2019
-* B.S. in Business Informatics, University of Mannheim, 2017
+## Experience
 
-Work experience
-======
-* 05/2025-now: Assistant Professor (Akademischer Rat)
-  * Technical University of Clausthal, Germany
-  * Topics: Deep Learning for Tabular Data, Tree Ensemble Methods, Concept Bottleneck Models, Reinforcement Learning with Verifiable Rewards (RLVR)
-    
-* 10/2024 - 03/2025: Adjunct Lecturer
-  * Technical University of Clausthal, Germany
-  * Lecture: “Grundlagen der Künstlichen Intelligenz" (Introduction to AI)
-    
-* 09/2019-05/2025: Scientific Researcher and PhD Candidate
-  * University of Mannheim, Germany
-  * Topics: Deep Learning for Tabular Data, Tree Ensemble Methods, Explainable AI
-  
-Skills
-======
-* Technical Skills
-  * Programming (Python, R, Java (very good), C/C++ (basic)
-  * ​​​​Frameworks & Tools: TensorFlow, PyTorch, JAX
-    
-* Research Areas:
-  * Tabular Data
-  * Time Series Forecasting
-  * Reinforcement Learning
-  * Concept Bottleneck Models
+**Assistant Professor (Akademischer Rat)**<br>
+Technical University of Clausthal, Germany · June 2025–October 2026
 
-* Languages
-  * German (native)
-  * English (Fluent)
-  * Italian (Conversational)
+- Research on tabular foundation models and deep learning for tabular data, alongside work on concept bottleneck models and reinforcement learning for LLM fine-tuning.
+- Helped establish and develop the CORE: Machine Learning and Cognitive Software research group.
+- Developed courses in artificial intelligence and generative AI, supervised student research, and co-supervised PhD projects.
 
-## Publication List
-### Selected Publications
-[Mitigating Information Loss in Tree-Based Reinforcement Learning via Direct Optimization](https://openreview.net/forum?id=qpXctF2aLZ)<br />
-<u>Sascha Marton</u>, Tim Grams, Florian Vogt, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt<br />
-ICLR 2025 <b>(Spotlight)</b>
+**Instructor of Record · Foundations of Artificial Intelligence**<br>
+Babeș-Bolyai University, Cluj, Romania · February–September 2026
 
-[DCBM: Data-Efficient Visual Concept Bottleneck Models](https://openreview.net/forum?id=BdO4R6XxUH)<br />
-Katharina Prasse, Patrick Knab, <u>Sascha Marton</u>, Christian Bartelt, Margret Keuper<br />
-ICML 2025
+- Responsible for course design, lectures, exercises, and assessment.
 
-[GRANDE: Gradient-Based Decision Tree Ensembles for Tabular Data](https://openreview.net/forum?id=XEFWBxi075)<br />
-<u>Sascha Marton</u>, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt<br />
-ICLR 2024
+**Instructor of Record · Foundations of Artificial Intelligence**<br>
+Technical University of Clausthal, Germany · October 2024–March 2025
 
-[A Data-Centric Perspective on Evaluating Machine Learning Models for Tabular Data](https://openreview.net/forum?id=kWTvdSSH5W)<br />
-Andrej Tschalzev, <u>Sascha Marton</u>, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt<br />
-NeurIPS 2024 (Datasets and Benchmarks Track)
+- Responsible for course design, lectures, exercises, and assessment.
 
-[GradTree: Learning Axis-Aligned Decision Trees with Gradient Descent](https://ojs.aaai.org/index.php/AAAI/article/view/29345)<br />
-<u>Sascha Marton</u>, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt<br />
-AAAI 2024 <b>(Oral)</b>
+**Scientific Researcher & PhD Candidate**<br>
+Institute for Enterprise Systems (InES), University of Mannheim, Germany · September 2019–May 2025
 
+- Research on tree-based methods and deep learning for tabular data.
+- Led research projects and supervised theses, team projects, and seminars.
 
+## Education
 
-### Further Publications
-[Decision Trees That Remember: Gradient-Based Learning of Recurrent Decision Trees with Memory](https://openreview.net/forum?id=u2Hh24rxW1)<br />
-<u>Sascha Marton</u>, Moritz Schneider, Jannik Brinkmann, Stefan Ludtke, Christian Bartelt, Heiner Stuckenschmidt<br />
-ICLR 2025 Workshop on New Frontiers in Associative Memories
+**PhD in Machine Learning · summa cum laude**<br>
+University of Mannheim · August 2019–May 2025
 
-[Beyond Pixels: Enhancing LIME with Hierarchical Features and Segmentation Foundation Models](https://arxiv.org/abs/2403.07733)<br />
-Patrick Knab, <u>Sascha Marton</u>, Christian Bartelt<br />
-ECAI 2025
+Dissertation: [Learning Tree-Based Models with Gradient Descent](https://madoc.bib.uni-mannheim.de/70481/)<br>
+Supervisors: Heiner Stuckenschmidt, Christian Bartelt, and Stefan Lüdtke.
 
-[Disentangling Exploration of Large Language Models by Optimal Exploitation](https://arxiv.org/abs/2501.08925)<br />
-Tim Grams, Patrick Betz, <u>Sascha Marton</u>, Stefan Lüdtke and Christian Bartelt<br />
-ECAI 2025
+**MSc in Business Informatics · Data and Web Science**<br>
+University of Mannheim · August 2017–August 2019
 
-[Which LIME should I trust? Concepts, Challenges, and Solutions](https://patrick-knab.github.io/which-lime-to-trust/)<br />
-Patrick Knab, <u>Sascha Marton</u>, Udo Schlegel, Christian Bartelt<br />
-XAI 2025
+**BSc in Business Informatics**<br>
+University of Mannheim · August 2014–August 2017
 
-[Explaining neural networks without access to training data](https://link.springer.com/article/10.1007/s10994-023-06428-4)<br />
-<u>Sascha Marton</u>, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt<br />
-Machine Learning Journal (2024)
+## Teaching & supervision
 
-[Explanations for Neural Networks by Neural Network](https://www.mdpi.com/2076-3417/12/3/980)<br />
-<u>Sascha Marton</u>, Stefan Lüdtke, Christian Bartelt<br />
-Applied Sciences (2022)
+I designed and taught courses including *Foundations of Artificial Intelligence* and *From Transformers to LLMs: Foundations of Generative AI*. My teaching also included seminars and European team projects, alongside supervision of Bachelor's and Master's theses and co-supervision of PhD research.
 
-[Interpreting Outliers in Time Series Data through Decoding Autoencoder](https://ceur-ws.org/Vol-3761/paper3.pdf)<br />
-Patrick Knab, <u>Sascha Marton</u>, Christian Bartelt, Robert Fuder<br />
-ECML-PKDD 2024 Workshop on Explainable AI for Time Series and Data Streams 
+## Research leadership & collaboration
 
-[Bias mitigation for large language models using adversarial learning](https://ceur-ws.org/Vol-3523/paper11.pdf)<br />
-Jasmina S Ernst, <u>Sascha Marton</u>, Jannik Brinkmann, Eduardo Vellasques, Damien Foucard, Martin Kraemer, Marian Lambert<br />
-ECAI 2023 Workshop on Fairness and Bias in AI
+My work in academia included acquiring, leading, and managing publicly funded research projects and industry-sponsored collaborations and research contracts.
 
+## Academic service
+
+- **Area Chair:** ICLR, NeurIPS.
+- **Program committee / reviewer:** ICML, AAAI.
+
+## Research interests & tools
+
+- **Research:** Tabular foundation models, deep learning for tabular data, and decision tree ensembles. Additional work on interpretable machine learning, concept bottleneck models, and reinforcement learning.
+- **Programming:** Python, R, Java; basic C/C++.
+- **Frameworks:** PyTorch, TensorFlow, JAX.
+- **Languages:** German (native), English (fluent), Italian (conversational).
+
+## Publications & software
+
+See my [publication list]({{ "/publications/" | relative_url }}) and the open-source implementations of [GRANDE](https://github.com/s-marton/GRANDE), [GradTree](https://github.com/s-marton/GradTree), and [SYMPOL](https://github.com/s-marton/SYMPOL).

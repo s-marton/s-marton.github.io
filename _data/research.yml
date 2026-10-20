@@ -1,0 +1,7 @@
+# Choose any three publication IDs from research_publications.yml.
+# This ordered list controls highlights on BOTH the homepage and publication page.
+# The first paper receives the larger feature on the homepage.
+featured_papers:
+  - grande
+  - gradtree
+  - sympol

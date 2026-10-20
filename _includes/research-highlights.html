@@ -1,0 +1,26 @@
+<div class="research-projects{% if include.compact %} research-projects-compact{% endif %}">
+{% for paper_id in site.data.research.featured_papers %}
+{% assign paper = site.data.research_publications | where: "id", paper_id | first %}
+{% if paper %}
+<article class="research-project{% if forloop.first and include.compact != true %} research-project-featured{% endif %}">
+<div class="research-project-label">{{ paper.venue | strip_html }}</div>
+<h3>{{ paper.short_title | default: paper.title }}</h3>
+{% if paper.short_title %}<p class="research-project-subtitle">{{ paper.title }}</p>{% endif %}
+{% if include.compact %}
+<p class="publication-authors">{{ paper.authors }}</p>
+{% if paper.paper_summary %}<div class="publication-summary"><p class="publication-summary-label">Paper summary</p><p>{{ paper.paper_summary }}</p></div>{% endif %}
+{% else %}
+{% if paper.summary %}<p>{{ paper.summary }}</p>{% endif %}
+{% if paper.software_note %}<p>{{ paper.software_note }}</p>{% endif %}
+{% endif %}
+<div class="research-project-links">
+{% if paper.code and paper.primary_link == 'code' and include.compact != true %}
+<a class="research-button" href="{{ paper.code }}">Explore {{ paper.short_title | default: 'the code' }} on GitHub ↗</a><a href="{{ paper.url }}">Paper ↗</a>
+{% else %}
+<a href="{{ paper.url }}">Paper ↗</a>{% if paper.code %}<a href="{{ paper.code }}">Code ↗</a>{% endif %}
+{% endif %}
+</div>
+</article>
+{% endif %}
+{% endfor %}
+</div>
