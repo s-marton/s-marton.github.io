@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Sascha Marton" # / Machine Learning Researcher"
 title_separator          : "-"
 name                     : &name "Sascha Marton"
-description              : &description "Sascha Marton is a Senior Machine Learning Engineer at NVIDIA working on tabular foundation models. His research spans deep learning for tabular data and decision tree ensembles."
+description              : &description "Sascha Marton is a Senior Machine Learning Engineer at NVIDIA working on tabular foundation models. His research background is in machine learning for tabular data, with a focus on deep learning."
 url                      : https://s-marton.github.io # the base hostname & protocol for your site 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "s-marton/s-marton.github.io"
@@ -24,9 +24,9 @@ author:
   avatar           : "portrait_sascha_square.png"
   name             : "Sascha Marton"
   pronouns         : # example: "she/her"  
-  bio              : "Senior Machine Learning Engineer"
+  bio              : "Senior Machine Learning Engineer · Tabular Foundation Models"
   location         : "Heidelberg"
-  employer         : "NVIDIA"
+  employer         :
   uri              : # URL
   email            : "sascha.marton@gmail.com"
 

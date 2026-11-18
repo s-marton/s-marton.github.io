@@ -2,7 +2,7 @@
 layout: research
 permalink: /
 title: "Machine learning for tabular data"
-description: "Sascha Marton is a Senior Machine Learning Engineer at NVIDIA working on tabular foundation models, with a research background in deep learning for tabular data and decision tree ensembles."
+description: "Sascha Marton is a Senior Machine Learning Engineer at NVIDIA working on tabular foundation models. His research background is in machine learning for tabular data, with a focus on deep learning."
 redirect_from:
   - /about/
   - /about.html
