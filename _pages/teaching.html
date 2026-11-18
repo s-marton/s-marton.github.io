@@ -9,4 +9,6 @@ author_profile: true
 
 {% for post in site.teaching reversed %}
   {% include archive-single.html %}
+{% else %}
+  <p>My <a href="{{ '/cv/' | relative_url }}#teaching--supervision">CV</a> covers the courses I've taught and my work supervising students.</p>
 {% endfor %}

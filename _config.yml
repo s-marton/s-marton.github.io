@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Sascha Marton" # / Machine Learning Researcher"
 title_separator          : "-"
 name                     : &name "Sascha Marton"
-description              : &description "Sascha Marton — machine learning research for tabular data, with a focus on tabular foundation models, deep learning for tabular data, and decision tree ensembles."
+description              : &description "Sascha Marton is a Senior Machine Learning Engineer at NVIDIA working on tabular foundation models. His research spans deep learning for tabular data and decision tree ensembles."
 url                      : https://s-marton.github.io # the base hostname & protocol for your site 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "s-marton/s-marton.github.io"
@@ -24,16 +24,16 @@ author:
   avatar           : "portrait_sascha_square.png"
   name             : "Sascha Marton"
   pronouns         : # example: "she/her"  
-  bio              : "Machine Learning Researcher · Tabular Foundation Models"
+  bio              : "Senior Machine Learning Engineer"
   location         : "Heidelberg"
-  employer         : ""
+  employer         : "NVIDIA"
   uri              : # URL
   email            : "sascha.marton@gmail.com"
 
   github           : "s-marton"
   googlescholar    : "https://scholar.google.com/citations?user=5PQJ3sEAAAAJ"
   
-  linkedin         : "sascha-marton-phd-a19630185"
+  linkedin         : "sascha-marton-a19630185"
   twitter          : "__smarton"
 
   # Academic websites
@@ -158,6 +158,14 @@ include:
   - _pages
   - files
 exclude:
+  # Sample posts and courses bundled with the Academic Pages template.
+  - _posts/2012-08-14-blog-post-1.md
+  - _posts/2013-08-14-blog-post-2.md
+  - _posts/2014-08-14-blog-post-3.md
+  - _posts/2015-08-14-blog-post-4.md
+  - _posts/2199-01-01-future-post.md
+  - _teaching/2014-spring-teaching-1.md
+  - _teaching/2015-spring-teaching-2.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

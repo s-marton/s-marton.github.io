@@ -2,7 +2,7 @@
 layout: research
 permalink: /
 title: "Machine learning for tabular data"
-description: "Sascha Marton researches machine learning for tabular data, with a focus on tabular foundation models, deep learning for tabular data, and decision tree ensembles."
+description: "Sascha Marton is a Senior Machine Learning Engineer at NVIDIA working on tabular foundation models, with a research background in deep learning for tabular data and decision tree ensembles."
 redirect_from:
   - /about/
   - /about.html
@@ -11,10 +11,10 @@ redirect_from:
 <header class="research-hero research-about" aria-labelledby="about-heading">
 <p class="research-eyebrow">Machine learning research</p>
 <h1 id="about-heading">Hey, I'm Sascha.</h1>
-<p class="research-lead">I work on machine learning for tabular data. I'm particularly interested in advancing <strong>tabular foundation models</strong> and developing methods that people can use and build on.</p>
+<p class="research-lead">I'm a Senior Machine Learning Engineer at NVIDIA, where my research focuses on <strong>tabular foundation models</strong>.</p>
 <div class="research-about-story">
-<p>I became interested in tabular data during my PhD at the University of Mannheim, which I completed in May 2025. Much of my work focused on bringing decision trees and deep learning closer together. After finishing my PhD, I joined TU Clausthal, where my focus shifted towards tabular foundation models, building on that interest in deep learning for tabular data.</p>
-<p>I've always wanted to do research with impact. Research that people can use and build on. I enjoy working on ambitious ideas with people who are just as excited about them as I am. With tabular foundation models, there's still so much to figure out, and the chance to help shape what comes next is incredibly exciting.</p>
+<p>I'm part of the team behind <a href="https://docs.nvidia.com/sdgm/structured-data-models/models/kumo-tabular">Kumo Tabular</a> and the open-source <a href="https://github.com/NVIDIA/structured-data-models">Structured Data Models</a> library. I've always wanted to do research with impact. Research that people can use and build on. I enjoy working on ambitious ideas with people who are just as excited about them as I am. With tabular foundation models, there's still so much to figure out, and the chance to help shape what comes next is incredibly exciting.</p>
+<p>My interest in tabular data began during my PhD at the University of Mannheim, where I developed methods for training decision trees and ensembles with gradient descent. I later joined TU Clausthal, where my research broadened to include tabular foundation models.</p>
 </div>
 <div class="research-topics" aria-label="Research interests"><span>Tabular foundation models</span><span>Deep learning for tabular data</span><span>Decision tree ensembles</span></div>
 <div class="research-actions"><a class="research-button" href="#research">Research &amp; software <span aria-hidden="true">↓</span></a><a href="{{ '/publications/' | relative_url }}">Publications <span aria-hidden="true">↗</span></a></div>

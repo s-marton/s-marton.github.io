@@ -5,7 +5,7 @@ layout: default
   <aside class="research-profile" aria-label="About Sascha Marton">
     <a href="{{ '/' | relative_url }}" aria-label="Sascha Marton, home"><img class="research-portrait" src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" alt="Sascha Marton" width="160" height="160"></a>
     <p class="research-name">Sascha Marton</p>
-    <p class="research-role">Machine Learning Researcher</p>
+    <p class="research-role">{{ site.author.bio }}{% if site.author.employer %} at {{ site.author.employer }}{% endif %}</p>
     <p class="research-location">Heidelberg, Germany</p>
     <nav class="research-links" aria-label="Profile links">
       <a href="mailto:{{ site.author.email }}">Email <span aria-hidden="true">↗</span></a>

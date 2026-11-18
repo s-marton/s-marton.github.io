@@ -5,12 +5,17 @@ permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
-description: "Sascha Marton's academic background, research, teaching, and professional service."
+description: "Sascha Marton's CV, including his role at NVIDIA and his background in machine learning research, teaching, and academic service."
 ---
 
-<p class="research-intro">My background in research, teaching, and academic leadership, with a focus on machine learning for tabular data.</p>
+<p class="research-intro">My experience in machine learning engineering, research, teaching, and academic leadership, with a focus on tabular data.</p>
 
 ## Experience
+
+**Senior Machine Learning Engineer**<br>
+NVIDIA · November 2026–Present
+
+- Work on tabular foundation models as part of the team behind Kumo Tabular and the open-source Structured Data Models library.
 
 **Assistant Professor (Akademischer Rat)**<br>
 Technical University of Clausthal, Germany · June 2025–October 2026
@@ -38,7 +43,7 @@ Institute for Enterprise Systems (InES), University of Mannheim, Germany · Sept
 ## Education
 
 **PhD in Machine Learning · summa cum laude**<br>
-University of Mannheim · August 2019–May 2025
+University of Mannheim · September 2019–May 2025
 
 Dissertation: [Learning Tree-Based Models with Gradient Descent](https://madoc.bib.uni-mannheim.de/70481/)<br>
 Supervisors: Heiner Stuckenschmidt, Christian Bartelt, and Stefan Lüdtke.
